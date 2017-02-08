@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845804571E4ACE8D00E5C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804561E4ACE8D00E5C3EA /* main.m */; };
+		8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804591E4ACE8D00E5C3EA /* AppDelegate.m */; };
+		8458045D1E4ACE8D00E5C3EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458045C1E4ACE8D00E5C3EA /* ViewController.m */; };
+		845804601E4ACE8D00E5C3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8458045E1E4ACE8D00E5C3EA /* Main.storyboard */; };
+		845804631E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845804611E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld */; };
+		845804651E4ACE8D00E5C3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845804641E4ACE8D00E5C3EA /* Assets.xcassets */; };
+		845804681E4ACE8D00E5C3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */; };
+		845804731E4ACE8D00E5C3EA /* WellsfargoReservationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804721E4ACE8D00E5C3EA /* WellsfargoReservationTests.m */; };
+		8458047E1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458047D1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8458046F1E4ACE8D00E5C3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8458044A1E4ACE8D00E5C3EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845804511E4ACE8D00E5C3EA;
+			remoteInfo = WellsfargoReservation;
+		};
+		8458047A1E4ACE8D00E5C3EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8458044A1E4ACE8D00E5C3EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845804511E4ACE8D00E5C3EA;
+			remoteInfo = WellsfargoReservation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845804521E4ACE8D00E5C3EA /* WellsfargoReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsfargoReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845804561E4ACE8D00E5C3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845804581E4ACE8D00E5C3EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845804591E4ACE8D00E5C3EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8458045B1E4ACE8D00E5C3EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8458045C1E4ACE8D00E5C3EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8458045F1E4ACE8D00E5C3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsfargoReservation.xcdatamodel; sourceTree = "<group>"; };
+		845804641E4ACE8D00E5C3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845804671E4ACE8D00E5C3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845804691E4ACE8D00E5C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8458046E1E4ACE8D00E5C3EA /* WellsfargoReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsfargoReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845804721E4ACE8D00E5C3EA /* WellsfargoReservationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellsfargoReservationTests.m; sourceTree = "<group>"; };
+		845804741E4ACE8D00E5C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845804791E4ACE8D00E5C3EA /* WellsfargoReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsfargoReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8458047D1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellsfargoReservationUITests.m; sourceTree = "<group>"; };
+		8458047F1E4ACE8D00E5C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8458044F1E4ACE8D00E5C3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458046B1E4ACE8D00E5C3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845804761E4ACE8D00E5C3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845804491E4ACE8D00E5C3EA = {
+			isa = PBXGroup;
+			children = (
+				845804541E4ACE8D00E5C3EA /* WellsfargoReservation */,
+				845804711E4ACE8D00E5C3EA /* WellsfargoReservationTests */,
+				8458047C1E4ACE8D00E5C3EA /* WellsfargoReservationUITests */,
+				845804531E4ACE8D00E5C3EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845804531E4ACE8D00E5C3EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845804521E4ACE8D00E5C3EA /* WellsfargoReservation.app */,
+				8458046E1E4ACE8D00E5C3EA /* WellsfargoReservationTests.xctest */,
+				845804791E4ACE8D00E5C3EA /* WellsfargoReservationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845804541E4ACE8D00E5C3EA /* WellsfargoReservation */ = {
+			isa = PBXGroup;
+			children = (
+				845804581E4ACE8D00E5C3EA /* AppDelegate.h */,
+				845804591E4ACE8D00E5C3EA /* AppDelegate.m */,
+				8458045B1E4ACE8D00E5C3EA /* ViewController.h */,
+				8458045C1E4ACE8D00E5C3EA /* ViewController.m */,
+				8458045E1E4ACE8D00E5C3EA /* Main.storyboard */,
+				845804641E4ACE8D00E5C3EA /* Assets.xcassets */,
+				845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */,
+				845804691E4ACE8D00E5C3EA /* Info.plist */,
+				845804611E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld */,
+				845804551E4ACE8D00E5C3EA /* Supporting Files */,
+			);
+			path = WellsfargoReservation;
+			sourceTree = "<group>";
+		};
+		845804551E4ACE8D00E5C3EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845804561E4ACE8D00E5C3EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845804711E4ACE8D00E5C3EA /* WellsfargoReservationTests */ = {
+			isa = PBXGroup;
+			children = (
+				845804721E4ACE8D00E5C3EA /* WellsfargoReservationTests.m */,
+				845804741E4ACE8D00E5C3EA /* Info.plist */,
+			);
+			path = WellsfargoReservationTests;
+			sourceTree = "<group>";
+		};
+		8458047C1E4ACE8D00E5C3EA /* WellsfargoReservationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8458047D1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m */,
+				8458047F1E4ACE8D00E5C3EA /* Info.plist */,
+			);
+			path = WellsfargoReservationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845804511E4ACE8D00E5C3EA /* WellsfargoReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845804821E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservation" */;
+			buildPhases = (
+				8458044E1E4ACE8D00E5C3EA /* Sources */,
+				8458044F1E4ACE8D00E5C3EA /* Frameworks */,
+				845804501E4ACE8D00E5C3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellsfargoReservation;
+			productName = WellsfargoReservation;
+			productReference = 845804521E4ACE8D00E5C3EA /* WellsfargoReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8458046D1E4ACE8D00E5C3EA /* WellsfargoReservationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845804851E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationTests" */;
+			buildPhases = (
+				8458046A1E4ACE8D00E5C3EA /* Sources */,
+				8458046B1E4ACE8D00E5C3EA /* Frameworks */,
+				8458046C1E4ACE8D00E5C3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845804701E4ACE8D00E5C3EA /* PBXTargetDependency */,
+			);
+			name = WellsfargoReservationTests;
+			productName = WellsfargoReservationTests;
+			productReference = 8458046E1E4ACE8D00E5C3EA /* WellsfargoReservationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845804781E4ACE8D00E5C3EA /* WellsfargoReservationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845804881E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationUITests" */;
+			buildPhases = (
+				845804751E4ACE8D00E5C3EA /* Sources */,
+				845804761E4ACE8D00E5C3EA /* Frameworks */,
+				845804771E4ACE8D00E5C3EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8458047B1E4ACE8D00E5C3EA /* PBXTargetDependency */,
+			);
+			name = WellsfargoReservationUITests;
+			productName = WellsfargoReservationUITests;
+			productReference = 845804791E4ACE8D00E5C3EA /* WellsfargoReservationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8458044A1E4ACE8D00E5C3EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					845804511E4ACE8D00E5C3EA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C56M7375EH;
+						ProvisioningStyle = Automatic;
+					};
+					8458046D1E4ACE8D00E5C3EA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C56M7375EH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845804511E4ACE8D00E5C3EA;
+					};
+					845804781E4ACE8D00E5C3EA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C56M7375EH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845804511E4ACE8D00E5C3EA;
+					};
+				};
+			};
+			buildConfigurationList = 8458044D1E4ACE8D00E5C3EA /* Build configuration list for PBXProject "WellsfargoReservation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845804491E4ACE8D00E5C3EA;
+			productRefGroup = 845804531E4ACE8D00E5C3EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845804511E4ACE8D00E5C3EA /* WellsfargoReservation */,
+				8458046D1E4ACE8D00E5C3EA /* WellsfargoReservationTests */,
+				845804781E4ACE8D00E5C3EA /* WellsfargoReservationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845804501E4ACE8D00E5C3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845804681E4ACE8D00E5C3EA /* LaunchScreen.storyboard in Resources */,
+				845804651E4ACE8D00E5C3EA /* Assets.xcassets in Resources */,
+				845804601E4ACE8D00E5C3EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458046C1E4ACE8D00E5C3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845804771E4ACE8D00E5C3EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8458044E1E4ACE8D00E5C3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458045D1E4ACE8D00E5C3EA /* ViewController.m in Sources */,
+				8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */,
+				845804631E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld in Sources */,
+				845804571E4ACE8D00E5C3EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458046A1E4ACE8D00E5C3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845804731E4ACE8D00E5C3EA /* WellsfargoReservationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845804751E4ACE8D00E5C3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458047E1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845804701E4ACE8D00E5C3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845804511E4ACE8D00E5C3EA /* WellsfargoReservation */;
+			targetProxy = 8458046F1E4ACE8D00E5C3EA /* PBXContainerItemProxy */;
+		};
+		8458047B1E4ACE8D00E5C3EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845804511E4ACE8D00E5C3EA /* WellsfargoReservation */;
+			targetProxy = 8458047A1E4ACE8D00E5C3EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8458045E1E4ACE8D00E5C3EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8458045F1E4ACE8D00E5C3EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845804671E4ACE8D00E5C3EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845804801E4ACE8D00E5C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845804811E4ACE8D00E5C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845804831E4ACE8D00E5C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845804841E4ACE8D00E5C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		845804861E4ACE8D00E5C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsfargoReservation.app/WellsfargoReservation";
+			};
+			name = Debug;
+		};
+		845804871E4ACE8D00E5C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellsfargoReservation.app/WellsfargoReservation";
+			};
+			name = Release;
+		};
+		845804891E4ACE8D00E5C3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellsfargoReservation;
+			};
+			name = Debug;
+		};
+		8458048A1E4ACE8D00E5C3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C56M7375EH;
+				INFOPLIST_FILE = WellsfargoReservationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WellsfargoReservation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8458044D1E4ACE8D00E5C3EA /* Build configuration list for PBXProject "WellsfargoReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845804801E4ACE8D00E5C3EA /* Debug */,
+				845804811E4ACE8D00E5C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845804821E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845804831E4ACE8D00E5C3EA /* Debug */,
+				845804841E4ACE8D00E5C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845804851E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845804861E4ACE8D00E5C3EA /* Debug */,
+				845804871E4ACE8D00E5C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845804881E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845804891E4ACE8D00E5C3EA /* Debug */,
+				8458048A1E4ACE8D00E5C3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845804611E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */,
+			);
+			currentVersion = 845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */;
+			path = WellsfargoReservation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8458044A1E4ACE8D00E5C3EA /* Project object */;
+}
