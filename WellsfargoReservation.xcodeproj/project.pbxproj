@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8411CD961E4B913E00EABC11 /* DaysCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD951E4B913E00EABC11 /* DaysCollectionViewCell.m */; };
+		8411CD981E4BBA5200EABC11 /* pasted-image-small-30889.png in Resources */ = {isa = PBXBuildFile; fileRef = 8411CD971E4BBA5200EABC11 /* pasted-image-small-30889.png */; };
+		8411CD9B1E4BDBCE00EABC11 /* DisplayDateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD9A1E4BDBCE00EABC11 /* DisplayDateData.m */; };
+		8411CDA11E4C049100EABC11 /* Reservation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD9F1E4C049100EABC11 /* Reservation+CoreDataProperties.m */; };
+		8411CDA41E4C1D9900EABC11 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */; };
+		8411CDA91E4C249700EABC11 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CDA81E4C249700EABC11 /* AnimationViewController.m */; };
 		845804571E4ACE8D00E5C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804561E4ACE8D00E5C3EA /* main.m */; };
 		8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804591E4ACE8D00E5C3EA /* AppDelegate.m */; };
 		8458045D1E4ACE8D00E5C3EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458045C1E4ACE8D00E5C3EA /* ViewController.m */; };
@@ -16,6 +22,20 @@
 		845804681E4ACE8D00E5C3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */; };
 		845804731E4ACE8D00E5C3EA /* WellsfargoReservationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804721E4ACE8D00E5C3EA /* WellsfargoReservationTests.m */; };
 		8458047E1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458047D1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m */; };
+		845804961E4ACF3300E5C3EA /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458048C1E4ACF3300E5C3EA /* FontInspector.m */; };
+		845804971E4ACF3300E5C3EA /* DisplayNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458048F1E4ACF3300E5C3EA /* DisplayNavigationController.m */; };
+		845804981E4ACF3300E5C3EA /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845804901E4ACF3300E5C3EA /* ionicons.bundle */; };
+		845804991E4ACF3300E5C3EA /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804921E4ACF3300E5C3EA /* IonIcons.m */; };
+		8458049A1E4ACF3300E5C3EA /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845804931E4ACF3300E5C3EA /* ionicons.ttf */; };
+		8458049B1E4ACF3300E5C3EA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 845804941E4ACF3300E5C3EA /* LICENSE */; };
+		8458049D1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8458049C1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg */; };
+		845804A01E4ACF4A00E5C3EA /* MyReservationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458049F1E4ACF4A00E5C3EA /* MyReservationTableViewController.m */; };
+		845804A31E4ACF5D00E5C3EA /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804A21E4ACF5D00E5C3EA /* ListTableViewCell.m */; };
+		845804A51E4AD2E800E5C3EA /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 845804A41E4AD2E800E5C3EA /* 22.png */; };
+		845804A71E4AD2F100E5C3EA /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 845804A61E4AD2F100E5C3EA /* 11.png */; };
+		845804A91E4AD2FA00E5C3EA /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 845804A81E4AD2FA00E5C3EA /* 33.png */; };
+		845804AF1E4AD9CE00E5C3EA /* SpaServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804AE1E4AD9CE00E5C3EA /* SpaServiceViewController.m */; };
+		845804B21E4AF2D400E5C3EA /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804B11E4AF2D400E5C3EA /* ScheduleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8411CD941E4B913E00EABC11 /* DaysCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysCollectionViewCell.h; sourceTree = "<group>"; };
+		8411CD951E4B913E00EABC11 /* DaysCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysCollectionViewCell.m; sourceTree = "<group>"; };
+		8411CD971E4BBA5200EABC11 /* pasted-image-small-30889.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pasted-image-small-30889.png"; sourceTree = "<group>"; };
+		8411CD991E4BDBCE00EABC11 /* DisplayDateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDateData.h; sourceTree = "<group>"; };
+		8411CD9A1E4BDBCE00EABC11 /* DisplayDateData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDateData.m; sourceTree = "<group>"; };
+		8411CD9E1E4C049100EABC11 /* Reservation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reservation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8411CD9F1E4C049100EABC11 /* Reservation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reservation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8411CDA21E4C1D9900EABC11 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchTableViewController.h; path = WellsfargoReservation/SearchTableViewController.h; sourceTree = "<group>"; };
+		8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchTableViewController.m; path = WellsfargoReservation/SearchTableViewController.m; sourceTree = "<group>"; };
+		8411CDA71E4C249700EABC11 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationViewController.h; path = WellsfargoReservation/AnimationViewController.h; sourceTree = "<group>"; };
+		8411CDA81E4C249700EABC11 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationViewController.m; path = WellsfargoReservation/AnimationViewController.m; sourceTree = "<group>"; };
 		845804521E4ACE8D00E5C3EA /* WellsfargoReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsfargoReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845804561E4ACE8D00E5C3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		845804581E4ACE8D00E5C3EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		845804591E4ACE8D00E5C3EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8458045B1E4ACE8D00E5C3EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8458045C1E4ACE8D00E5C3EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845804581E4ACE8D00E5C3EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WellsfargoReservation/AppDelegate.h; sourceTree = "<group>"; };
+		845804591E4ACE8D00E5C3EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WellsfargoReservation/AppDelegate.m; sourceTree = "<group>"; };
+		8458045B1E4ACE8D00E5C3EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = WellsfargoReservation/ViewController.h; sourceTree = "<group>"; };
+		8458045C1E4ACE8D00E5C3EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = WellsfargoReservation/ViewController.m; sourceTree = "<group>"; };
 		8458045F1E4ACE8D00E5C3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellsfargoReservation.xcdatamodel; sourceTree = "<group>"; };
 		845804641E4ACE8D00E5C3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +84,28 @@
 		845804791E4ACE8D00E5C3EA /* WellsfargoReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellsfargoReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8458047D1E4ACE8D00E5C3EA /* WellsfargoReservationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellsfargoReservationUITests.m; sourceTree = "<group>"; };
 		8458047F1E4ACE8D00E5C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8458048B1E4ACF3300E5C3EA /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
+		8458048C1E4ACF3300E5C3EA /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
+		8458048D1E4ACF3300E5C3EA /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		8458048E1E4ACF3300E5C3EA /* DisplayNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayNavigationController.h; sourceTree = "<group>"; };
+		8458048F1E4ACF3300E5C3EA /* DisplayNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayNavigationController.m; sourceTree = "<group>"; };
+		845804901E4ACF3300E5C3EA /* ionicons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ionicons.bundle; sourceTree = "<group>"; };
+		845804911E4ACF3300E5C3EA /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		845804921E4ACF3300E5C3EA /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		845804931E4ACF3300E5C3EA /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		845804941E4ACF3300E5C3EA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8458049C1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg"; sourceTree = "<group>"; };
+		8458049E1E4ACF4600E5C3EA /* MyReservationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyReservationTableViewController.h; path = WellsfargoReservation/MyReservationTableViewController.h; sourceTree = "<group>"; };
+		8458049F1E4ACF4A00E5C3EA /* MyReservationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyReservationTableViewController.m; path = WellsfargoReservation/MyReservationTableViewController.m; sourceTree = "<group>"; };
+		845804A11E4ACF5600E5C3EA /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ListTableViewCell.h; path = WellsfargoReservation/ListTableViewCell.h; sourceTree = "<group>"; };
+		845804A21E4ACF5D00E5C3EA /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewCell.m; path = WellsfargoReservation/ListTableViewCell.m; sourceTree = "<group>"; };
+		845804A41E4AD2E800E5C3EA /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		845804A61E4AD2F100E5C3EA /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		845804A81E4AD2FA00E5C3EA /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		845804AD1E4AD9CE00E5C3EA /* SpaServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpaServiceViewController.h; path = WellsfargoReservation/SpaServiceViewController.h; sourceTree = "<group>"; };
+		845804AE1E4AD9CE00E5C3EA /* SpaServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpaServiceViewController.m; path = WellsfargoReservation/SpaServiceViewController.m; sourceTree = "<group>"; };
+		845804B01E4AF2D400E5C3EA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = WellsfargoReservation/ScheduleViewController.h; sourceTree = "<group>"; };
+		845804B11E4AF2D400E5C3EA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = WellsfargoReservation/ScheduleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +133,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8411CDAA1E4C3A1100EABC11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8411CD9E1E4C049100EABC11 /* Reservation+CoreDataProperties.h */,
+				8411CD9F1E4C049100EABC11 /* Reservation+CoreDataProperties.m */,
+				8411CD9A1E4BDBCE00EABC11 /* DisplayDateData.m */,
+				8411CD991E4BDBCE00EABC11 /* DisplayDateData.h */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8411CDAB1E4C3A2900EABC11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */,
+				845804611E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld */,
+				8458045E1E4ACE8D00E5C3EA /* Main.storyboard */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8411CDAC1E4C3A3300EABC11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8411CD951E4B913E00EABC11 /* DaysCollectionViewCell.m */,
+				8411CD941E4B913E00EABC11 /* DaysCollectionViewCell.h */,
+				845804AE1E4AD9CE00E5C3EA /* SpaServiceViewController.m */,
+				845804581E4ACE8D00E5C3EA /* AppDelegate.h */,
+				8458045C1E4ACE8D00E5C3EA /* ViewController.m */,
+				845804AD1E4AD9CE00E5C3EA /* SpaServiceViewController.h */,
+				8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */,
+				845804B01E4AF2D400E5C3EA /* ScheduleViewController.h */,
+				8411CDA81E4C249700EABC11 /* AnimationViewController.m */,
+				845804A21E4ACF5D00E5C3EA /* ListTableViewCell.m */,
+				845804A11E4ACF5600E5C3EA /* ListTableViewCell.h */,
+				845804B11E4AF2D400E5C3EA /* ScheduleViewController.m */,
+				8411CDA21E4C1D9900EABC11 /* SearchTableViewController.h */,
+				8458049E1E4ACF4600E5C3EA /* MyReservationTableViewController.h */,
+				8458049F1E4ACF4A00E5C3EA /* MyReservationTableViewController.m */,
+				8458045B1E4ACE8D00E5C3EA /* ViewController.h */,
+				845804591E4ACE8D00E5C3EA /* AppDelegate.m */,
+				8411CDA71E4C249700EABC11 /* AnimationViewController.h */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8411CDAD1E4C757900EABC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				845804A61E4AD2F100E5C3EA /* 11.png */,
+				845804A81E4AD2FA00E5C3EA /* 33.png */,
+				8458049C1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg */,
+				845804A41E4AD2E800E5C3EA /* 22.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		845804491E4ACE8D00E5C3EA = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +216,13 @@
 		845804541E4ACE8D00E5C3EA /* WellsfargoReservation */ = {
 			isa = PBXGroup;
 			children = (
-				845804581E4ACE8D00E5C3EA /* AppDelegate.h */,
-				845804591E4ACE8D00E5C3EA /* AppDelegate.m */,
-				8458045B1E4ACE8D00E5C3EA /* ViewController.h */,
-				8458045C1E4ACE8D00E5C3EA /* ViewController.m */,
-				8458045E1E4ACE8D00E5C3EA /* Main.storyboard */,
+				8411CDAC1E4C3A3300EABC11 /* Controller */,
+				8411CDAB1E4C3A2900EABC11 /* View */,
+				8411CDAA1E4C3A1100EABC11 /* Model */,
+				845804951E4ACF3300E5C3EA /* ionicons */,
 				845804641E4ACE8D00E5C3EA /* Assets.xcassets */,
-				845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */,
 				845804691E4ACE8D00E5C3EA /* Info.plist */,
-				845804611E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld */,
+				8411CDAD1E4C757900EABC11 /* Resources */,
 				845804551E4ACE8D00E5C3EA /* Supporting Files */,
 			);
 			path = WellsfargoReservation;
@@ -141,6 +252,25 @@
 				8458047F1E4ACE8D00E5C3EA /* Info.plist */,
 			);
 			path = WellsfargoReservationUITests;
+			sourceTree = "<group>";
+		};
+		845804951E4ACF3300E5C3EA /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				8458048B1E4ACF3300E5C3EA /* FontInspector.h */,
+				8458048C1E4ACF3300E5C3EA /* FontInspector.m */,
+				8411CD971E4BBA5200EABC11 /* pasted-image-small-30889.png */,
+				8458048D1E4ACF3300E5C3EA /* ionicons-codes.h */,
+				8458048E1E4ACF3300E5C3EA /* DisplayNavigationController.h */,
+				8458048F1E4ACF3300E5C3EA /* DisplayNavigationController.m */,
+				845804901E4ACF3300E5C3EA /* ionicons.bundle */,
+				845804911E4ACF3300E5C3EA /* IonIcons.h */,
+				845804921E4ACF3300E5C3EA /* IonIcons.m */,
+				845804931E4ACF3300E5C3EA /* ionicons.ttf */,
+				845804941E4ACF3300E5C3EA /* LICENSE */,
+			);
+			name = ionicons;
+			path = ../../../projectWells/projectWells/ionicons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +340,7 @@
 				TargetAttributes = {
 					845804511E4ACE8D00E5C3EA = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = C56M7375EH;
+						DevelopmentTeam = 43XV4G59C4;
 						ProvisioningStyle = Automatic;
 					};
 					8458046D1E4ACE8D00E5C3EA = {
@@ -252,7 +382,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8458049D1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg in Resources */,
+				8458049B1E4ACF3300E5C3EA /* LICENSE in Resources */,
 				845804681E4ACE8D00E5C3EA /* LaunchScreen.storyboard in Resources */,
+				8458049A1E4ACF3300E5C3EA /* ionicons.ttf in Resources */,
+				845804A71E4AD2F100E5C3EA /* 11.png in Resources */,
+				845804A91E4AD2FA00E5C3EA /* 33.png in Resources */,
+				845804981E4ACF3300E5C3EA /* ionicons.bundle in Resources */,
+				8411CD981E4BBA5200EABC11 /* pasted-image-small-30889.png in Resources */,
+				845804A51E4AD2E800E5C3EA /* 22.png in Resources */,
 				845804651E4ACE8D00E5C3EA /* Assets.xcassets in Resources */,
 				845804601E4ACE8D00E5C3EA /* Main.storyboard in Resources */,
 			);
@@ -279,10 +417,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845804A31E4ACF5D00E5C3EA /* ListTableViewCell.m in Sources */,
+				845804B21E4AF2D400E5C3EA /* ScheduleViewController.m in Sources */,
 				8458045D1E4ACE8D00E5C3EA /* ViewController.m in Sources */,
+				8411CDA91E4C249700EABC11 /* AnimationViewController.m in Sources */,
+				8411CDA41E4C1D9900EABC11 /* SearchTableViewController.m in Sources */,
+				8411CD961E4B913E00EABC11 /* DaysCollectionViewCell.m in Sources */,
+				845804991E4ACF3300E5C3EA /* IonIcons.m in Sources */,
 				8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */,
+				8411CD9B1E4BDBCE00EABC11 /* DisplayDateData.m in Sources */,
+				845804971E4ACF3300E5C3EA /* DisplayNavigationController.m in Sources */,
+				845804A01E4ACF4A00E5C3EA /* MyReservationTableViewController.m in Sources */,
+				845804961E4ACF3300E5C3EA /* FontInspector.m in Sources */,
 				845804631E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodeld in Sources */,
 				845804571E4ACE8D00E5C3EA /* main.m in Sources */,
+				8411CDA11E4C049100EABC11 /* Reservation+CoreDataProperties.m in Sources */,
+				845804AF1E4AD9CE00E5C3EA /* SpaServiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +474,7 @@
 				8458045F1E4ACE8D00E5C3EA /* Base */,
 			);
 			name = Main.storyboard;
+			path = WellsfargoReservation;
 			sourceTree = "<group>";
 		};
 		845804661E4ACE8D00E5C3EA /* LaunchScreen.storyboard */ = {
@@ -332,6 +483,7 @@
 				845804671E4ACE8D00E5C3EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = WellsfargoReservation;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,10 +583,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C56M7375EH;
+				DEVELOPMENT_TEAM = 43XV4G59C4;
 				INFOPLIST_FILE = WellsfargoReservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservation;
+				PRODUCT_BUNDLE_IDENTIFIER = kumar.com.WellsfargoReservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,10 +596,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C56M7375EH;
+				DEVELOPMENT_TEAM = 43XV4G59C4;
 				INFOPLIST_FILE = WellsfargoReservation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wellsfargo.WellsfargoReservation;
+				PRODUCT_BUNDLE_IDENTIFIER = kumar.com.WellsfargoReservation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -520,6 +674,7 @@
 				845804841E4ACE8D00E5C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845804851E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +683,7 @@
 				845804871E4ACE8D00E5C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845804881E4ACE8D00E5C3EA /* Build configuration list for PBXNativeTarget "WellsfargoReservationUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +692,7 @@
 				8458048A1E4ACE8D00E5C3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -546,7 +703,8 @@
 				845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */,
 			);
 			currentVersion = 845804621E4ACE8D00E5C3EA /* WellsfargoReservation.xcdatamodel */;
-			path = WellsfargoReservation.xcdatamodeld;
+			name = WellsfargoReservation.xcdatamodeld;
+			path = WellsfargoReservation/WellsfargoReservation.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
