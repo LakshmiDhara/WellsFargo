@@ -55,7 +55,7 @@
     self.navBar.tintColor  = [UIColor whiteColor];
     self.navBar.barTintColor  =[UIColor colorWithRed:97/255. green:179/255. blue:235/255. alpha:1];
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];                                  
-    
+    reserveAllowed = NO;
     
 }
 
@@ -75,9 +75,15 @@
             
             
         }
-        if (index ==2)
+       
+        if (index ==1)
         {
             reserveAllowed = YES;
+        }
+        else
+        {
+            reserveAllowed = NO;
+
         }
        
         
@@ -93,8 +99,13 @@
         }
         
         if (index ==1)
-        {
+        { 
             reserveAllowed = YES;
+        }
+        else
+        {
+            reserveAllowed = NO;
+            
         }
         
     }

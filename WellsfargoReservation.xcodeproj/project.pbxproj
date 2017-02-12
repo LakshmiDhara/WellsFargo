@@ -95,8 +95,8 @@
 		845804AE1E4AD9CE00E5C3EA /* SpaServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpaServiceViewController.m; path = WellsfargoReservation/SpaServiceViewController.m; sourceTree = "<group>"; };
 		845804B01E4AF2D400E5C3EA /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = WellsfargoReservation/ScheduleViewController.h; sourceTree = "<group>"; };
 		845804B11E4AF2D400E5C3EA /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = WellsfargoReservation/ScheduleViewController.m; sourceTree = "<group>"; };
-		84B0ED741E4E864400CC4AF4 /* DisplayNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayNavigationController.h; sourceTree = "<group>"; };
-		84B0ED751E4E864400CC4AF4 /* DisplayNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayNavigationController.m; sourceTree = "<group>"; };
+		84B0ED741E4E864400CC4AF4 /* DisplayNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayNavigationController.h; path = ionicons/DisplayNavigationController.h; sourceTree = "<group>"; };
+		84B0ED751E4E864400CC4AF4 /* DisplayNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayNavigationController.m; path = ionicons/DisplayNavigationController.m; sourceTree = "<group>"; };
 		84B0ED761E4E864400CC4AF4 /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
 		84B0ED771E4E864400CC4AF4 /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
 		84B0ED781E4E864400CC4AF4 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
@@ -175,6 +175,8 @@
 				8458049E1E4ACF4600E5C3EA /* MyReservationTableViewController.h */,
 				8458049F1E4ACF4A00E5C3EA /* MyReservationTableViewController.m */,
 				8458045B1E4ACE8D00E5C3EA /* ViewController.h */,
+				84B0ED741E4E864400CC4AF4 /* DisplayNavigationController.h */,
+				84B0ED751E4E864400CC4AF4 /* DisplayNavigationController.m */,
 				845804591E4ACE8D00E5C3EA /* AppDelegate.m */,
 				8411CDA71E4C249700EABC11 /* AnimationViewController.h */,
 			);
@@ -257,8 +259,6 @@
 		84B0ED731E4E864400CC4AF4 /* ionicons */ = {
 			isa = PBXGroup;
 			children = (
-				84B0ED741E4E864400CC4AF4 /* DisplayNavigationController.h */,
-				84B0ED751E4E864400CC4AF4 /* DisplayNavigationController.m */,
 				84B0ED761E4E864400CC4AF4 /* FontInspector.h */,
 				84B0ED771E4E864400CC4AF4 /* FontInspector.m */,
 				84B0ED781E4E864400CC4AF4 /* ionicons-codes.h */,

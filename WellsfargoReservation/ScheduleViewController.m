@@ -138,7 +138,7 @@
         [formatter setDateFormat:@"YYYY-MM-dd"];
         date = [formatter dateFromString:[NSString stringWithFormat:@"%@%@",@"2017-02-",cell.dataDisplay.text]];
         
-        [formatter setDateFormat:@"EEEE, MMMM dd, yyyy"];
+        [formatter setDateFormat:@"EEEE, MMMM dd,yyyy"];
         NSString *ddate = [formatter stringFromDate:date];
         
 
@@ -262,7 +262,7 @@ numberOfRowsInComponent:(NSInteger)component{
     [self save];
     NSString *storyboardName = @"Main";
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle: nil];
-    UITableViewController * vc = [storyboard instantiateViewControllerWithIdentifier:@"MyReservation"];
+    UINavigationController * vc = [storyboard instantiateViewControllerWithIdentifier:@"MyReservationNC"];
     [self presentViewController:vc animated:YES completion:nil];
     }
     else{

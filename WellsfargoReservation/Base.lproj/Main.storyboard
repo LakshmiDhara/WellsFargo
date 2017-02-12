@@ -26,7 +26,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIT-1v-Sf6">
                                 <rect key="frame" x="0.0" y="445" width="375" height="118"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.70588235290000001" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="RESERVATION">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -51,9 +51,9 @@
         <!--Display Navigation Controller-->
         <scene sceneID="tZp-a8-SvO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bNt-pL-SQc" customClass="DisplayNavigationController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MyReservationNC" automaticallyAdjustsScrollViewInsets="NO" id="bNt-pL-SQc" customClass="DisplayNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MCV-GQ-Spn">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MCV-GQ-Spn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -89,13 +89,13 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCk-7C-5kX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="227" height="31"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="248" height="31"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bW2-Ut-kYK">
-                                                            <rect key="frame" x="235" y="0.0" width="100" height="31"/>
+                                                            <rect key="frame" x="244" y="0.0" width="91" height="31"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -105,8 +105,8 @@
                                                     <constraints>
                                                         <constraint firstItem="kCk-7C-5kX" firstAttribute="height" secondItem="yOB-PX-05G" secondAttribute="height" id="AEi-HA-XoF"/>
                                                         <constraint firstItem="bW2-Ut-kYK" firstAttribute="height" secondItem="yOB-PX-05G" secondAttribute="height" id="GIW-D7-pja"/>
-                                                        <constraint firstItem="kCk-7C-5kX" firstAttribute="width" secondItem="yOB-PX-05G" secondAttribute="width" multiplier="0.65" constant="4.0499999999999829" id="OHr-fD-0xP"/>
-                                                        <constraint firstItem="bW2-Ut-kYK" firstAttribute="width" secondItem="yOB-PX-05G" secondAttribute="width" multiplier="0.15" constant="48.550000000000004" id="arS-Yi-K6m"/>
+                                                        <constraint firstItem="kCk-7C-5kX" firstAttribute="width" secondItem="yOB-PX-05G" secondAttribute="width" multiplier="0.65" constant="25.049999999999983" id="OHr-fD-0xP"/>
+                                                        <constraint firstItem="bW2-Ut-kYK" firstAttribute="width" secondItem="yOB-PX-05G" secondAttribute="width" multiplier="0.15" constant="39.550000000000004" id="arS-Yi-K6m"/>
                                                         <constraint firstItem="kCk-7C-5kX" firstAttribute="leading" secondItem="yOB-PX-05G" secondAttribute="leading" id="h1K-7G-Hc7"/>
                                                         <constraint firstItem="kCk-7C-5kX" firstAttribute="top" secondItem="yOB-PX-05G" secondAttribute="top" id="pJb-M7-bCn"/>
                                                         <constraint firstAttribute="trailing" secondItem="bW2-Ut-kYK" secondAttribute="trailing" constant="8" id="s2H-dD-KdH"/>
@@ -228,6 +228,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My Reservation" id="1Y0-NQ-bcl"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="qvh-PJ-YGI">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
                     <connections>
                         <outlet property="tableView" destination="MGJ-cg-Ti8" id="nG5-dr-3Oc"/>
                     </connections>

@@ -26,7 +26,7 @@
 @synthesize tableView=_tableView;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+   
     //Core Data to fetch the reservation service details.
     AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
     NSManagedObjectContext *moc = delegate.persistentContainer.viewContext;
@@ -41,6 +41,7 @@
     NSLog(@"Reservation Count %lu", (unsigned long)[array count]);
     reservArray = [[NSMutableArray alloc]initWithArray:array];
     NSLog(@"entity %@",reservArray);
+    [self.tableView reloadData];
     
     //START . BELOW CODE TO DELETE TEH CORE DATA OBJECT
    /*
@@ -72,8 +73,11 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)viewDidAppear:(BOOL)animated
-{
+{  
     [super viewDidAppear:YES];
+    
+     self.navigationController.navigationBarHidden = NO;
+
     self.navigationItem.hidesBackButton = YES;
     self.navigationItem.title = @"MY Reservation";
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
@@ -126,7 +130,7 @@
     ListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     cell.date.text = @"Monday, March 26,2016";
-    cell.time.text = @"2 PM";
+    cell.time.text = @"02:00 PM";
     cell.name.text =@"Gel Manicure";
     cell.partySize.text = @"PARTY SIZE - 1";
     cell.duration.text = @"30M";
