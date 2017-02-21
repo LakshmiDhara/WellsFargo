@@ -2,8 +2,8 @@
 //  Reservation+CoreDataProperties.m
 //  WellsfargoReservation
 //
-//  Created by Admin on 2/8/17.
-//  Copyright © 2017 Admin. All rights reserved.
+//  Created by Lakshmi on 2/20/17.
+//  Copyright © 2017 Lakshmi. All rights reserved.
 //  This file was automatically generated and should not be edited.
 //
 

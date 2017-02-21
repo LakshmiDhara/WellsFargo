@@ -2,7 +2,7 @@
 //  SpaServiceViewController.m
 //  WellsfargoReservation
 //
-//  Created by Lakshmi on 2/7/17.
+//  Created by Lakshmi on 2/20/17.
 //  Copyright © 2017 Lakshmi. All rights reserved.
 //
 /*START.Functionality implemented in this controller.
@@ -38,7 +38,7 @@
     UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self  action:@selector(didSwipe:)];
     swipeRight.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:swipeRight];
-    imgArray= [[NSMutableArray alloc]initWithObjects:@"11.png",@"22.png",@"33.png",nil];
+    imgArray= [[NSMutableArray alloc]initWithObjects:@"11",@"22",@"33",nil];
     index = 0;
     self.pgCtrl.currentPage = index;
     maxImages = 2;

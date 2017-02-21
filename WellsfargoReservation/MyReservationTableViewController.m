@@ -1,8 +1,8 @@
 //
 //  MyReservationTableViewController.m
-//  projectWells
+//  WellsfargoReservation
 //
-//  Created by Lakshmi on 2/7/17.
+//  Created by Lakshmi on 2/20/17.
 //  Copyright © 2017 Lakshmi. All rights reserved.
 //
 
@@ -27,21 +27,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-    //Core Data to fetch the reservation service details.
-    AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
-    NSManagedObjectContext *moc = delegate.persistentContainer.viewContext;
-    NSError *error;
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc]init];
-    NSEntityDescription *reservation = [NSEntityDescription entityForName:@"Reservation" inManagedObjectContext:moc];
-    [fetchRequest setEntity:reservation];
-      fetchRequest.returnsObjectsAsFaults = NO;
-    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"duration =%@",@"1H"]];
-   NSArray *array = [moc executeFetchRequest:fetchRequest error:&error];
+    self.navigationController.navigationBarHidden = NO;
     
-    NSLog(@"Reservation Count %lu", (unsigned long)[array count]);
-    reservArray = [[NSMutableArray alloc]initWithArray:array];
-    NSLog(@"entity %@",reservArray);
-    [self.tableView reloadData];
+    self.navigationItem.hidesBackButton = YES;
+    self.navigationItem.title = @"MY RESERVATIONS";
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    // self.nav.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
+    
+    UIImage *img = [IonIcons imageWithIcon:ion_plus
+                                 iconColor:[UIColor whiteColor]
+                                  iconSize:25.0f
+                                 imageSize:CGSizeMake(70.0f, 70.0f)];
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc]
+                                  initWithImage:img
+                                  style:UIBarButtonItemStylePlain
+                                  target:self action:@selector(registerUser)];
+    
+    self.navigationItem.rightBarButtonItem = addButton;
+    self.navigationController.navigationBarHidden = NO;
+    
     
     //START . BELOW CODE TO DELETE TEH CORE DATA OBJECT
    /*
@@ -67,6 +72,7 @@
 {
     NSLog (@"Pull To Refresh Method Called");
     [refreshController endRefreshing];
+   // [self.tableView reloadData];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -76,26 +82,22 @@
 {  
     [super viewDidAppear:YES];
     
-     self.navigationController.navigationBarHidden = NO;
-
-    self.navigationItem.hidesBackButton = YES;
-    self.navigationItem.title = @"MY Reservation";
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
-
-   // self.nav.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
-
-  UIImage *img = [IonIcons imageWithIcon:ion_plus
-                                                           iconColor:[UIColor whiteColor]
-                                                            iconSize:30.0f
-                                                           imageSize:CGSizeMake(90.0f, 90.0f)];
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc]
-                                    initWithImage:img
-                                    style:UIBarButtonItemStylePlain
-                                    target:self action:@selector(registerUser)];
     
-    self.navigationItem.rightBarButtonItem = addButton;
-    self.navigationController.navigationBarHidden = NO;
+    //Core Data to fetch the reservation service details.
+    AppDelegate *delegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
+    NSManagedObjectContext *moc = delegate.persistentContainer.viewContext;
+    NSError *error;
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc]init];
+    NSEntityDescription *reservation = [NSEntityDescription entityForName:@"Reservation" inManagedObjectContext:moc];
+    [fetchRequest setEntity:reservation];
+    fetchRequest.returnsObjectsAsFaults = NO;
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"duration =%@",@"1H"]];
+    NSArray *array = [moc executeFetchRequest:fetchRequest error:&error];
     
+    NSLog(@"Reservation Count %lu", (unsigned long)[array count]);
+    reservArray = [[NSMutableArray alloc]initWithArray:array];
+   // NSLog(@"entity %@",reservArray);
+    [self.tableView reloadData];
     //This is not display Empty Cells in Table View
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
@@ -113,7 +115,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     if ([reservArray count] == 0)
-    { NSLog(@"number of rows");
+    { 
         return 1;
         
     }
@@ -129,7 +131,7 @@
     {
     ListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.date.text = @"Monday, March 26,2016";
+    cell.date.text = @"Monday, March 26, 2016";
     cell.time.text = @"02:00 PM";
     cell.name.text =@"Gel Manicure";
     cell.partySize.text = @"PARTY SIZE - 1";

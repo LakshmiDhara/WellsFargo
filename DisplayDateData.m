@@ -2,7 +2,7 @@
 //  DisplayDateData.m
 //  WellsfargoReservation
 //
-//  Created by Lakshmi on 2/8/17.
+//  Created by Lakshmi on 2/20/17.
 //  Copyright © 2017 Lakshmi. All rights reserved.
 //
 
@@ -31,71 +31,68 @@
     NSLog(@"Month: %ld", [components month]);
     NSLog(@"Year: %ld", [components year]);
     
-    NSDateFormatter *df = [[NSDateFormatter alloc] init] ;
-    NSString *monthName = [[df monthSymbols] objectAtIndex:([components month]-1)];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init] ;
+    NSString *monthName = [[formatter monthSymbols] objectAtIndex:([components month]-1)];
     NSLog(@"month name %@",monthName);
-    //self.monthLabel.text = monthName;
+   
     self.monthName =monthName;
-    
-    NSCalendar *calendar1 = [NSCalendar currentCalendar];
-    NSRange range = [calendar1 rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]];
+  
+    NSRange range = [calendar rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[NSDate date]];
     NSUInteger numberOfDaysInMonth = range.length;
         //Show the display from the current date to end of the month
-    self.daysCount = numberOfDaysInMonth -[components day] +1;
+    self.daysCount =  numberOfDaysInMonth -[components day] +1;
     
     
     NSLog(@"days %d", self.daysCount);
-    
-    
-    
-    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDateComponents *comps = [gregorian components:NSCalendarUnitWeekday fromDate:[NSDate date]];
-    int weekday = [comps weekday];
+   
+    NSDateComponents *comps = [calendar components:NSCalendarUnitWeekday fromDate:[NSDate date]];
+    int weekday = (int)[comps weekday] ;
     NSLog(@"The week day number: %d", weekday);
     self.daysInWeekArray = [[NSMutableArray alloc]init];
     self.dateInMonthArray = [[NSMutableArray alloc]init];
-    int i = [components day];
-    while (i <= numberOfDaysInMonth )
+    int i =(int) [components day];
+  
+        for(int count=i;count<=numberOfDaysInMonth;count++)
     {
       
         NSDate *date = [NSDate date];
-        NSDateFormatter *formatter = [[NSDateFormatter alloc] init] ;
+      
         [formatter setDateFormat:@"yyyy-MM-dd"];
-        //date = [formatter dateFromString:@"2017-02-\(i)"];
-        date = [formatter dateFromString:[NSString stringWithFormat:@"%@%d",@"2017-02-",i]];
-        NSDateComponents *comps = [gregorian components:NSCalendarUnitWeekday fromDate:date];
+       
+        date = [formatter dateFromString:[NSString stringWithFormat:@"%@%d",@"2017-02-",count]];
+        NSDateComponents *comps = [calendar components:NSCalendarUnitWeekday fromDate:date];
         
         long daysInWeek = [comps weekday];
-        //   let daysInWeek = calendar.component(.weekday, from: date1!)
+      
         switch (daysInWeek) {
             case 1:
-                //  [daysInWeekArray append("Sun")]
-                [_daysInWeekArray addObject:@"SUN"];
+                
+                [self.daysInWeekArray addObject:@"SUN"];
                 break;
             case 2:
-                [_daysInWeekArray addObject:@"MON"];
+                [self.daysInWeekArray addObject:@"MON"];
                  break;
             case 3:
-                [_daysInWeekArray addObject:@"TUE"];
+                [self.daysInWeekArray addObject:@"TUE"];
                  break;
             case 4:
-                [_daysInWeekArray addObject:@"WED"];
+                [self.daysInWeekArray addObject:@"WED"];
                  break;
             case 5:
-                [_daysInWeekArray addObject:@"THR"];
+                [self.daysInWeekArray addObject:@"THR"];
                  break;
             case 6:
-                [_daysInWeekArray addObject:@"FRI"];
+                [self.daysInWeekArray addObject:@"FRI"];
                  break;
             case 7:
-                [_daysInWeekArray addObject:@"SAT"];
+                [self.daysInWeekArray addObject:@"SAT"];
                 break;
             default:
                 NSLog(@"error");
                 
         }
         
-        i = i+1;
+     
         
         
     }
@@ -108,7 +105,7 @@
     }
 
     
-    _timeInDayArray = [[NSMutableArray alloc]initWithObjects:@"09:00 AM",@"10:00 AM",@"11:00 AM",@"12:00 PM",@"01:00 PM",@"02:00 PM",@"03:00 PM",@"04:00 PM",@"05:00 PM",@"06:00 PM",@"07:00 PM",@"08:00 PM", nil];
+    self.timeInDayArray = [[NSMutableArray alloc]initWithObjects:@"09:00 AM",@"10:00 AM",@"11:00 AM",@"12:00 PM",@"01:00 PM",@"02:00 PM",@"03:00 PM",@"04:00 PM",@"05:00 PM",@"06:00 PM",@"07:00 PM",@"08:00 PM", nil];
 }
 
 return self;

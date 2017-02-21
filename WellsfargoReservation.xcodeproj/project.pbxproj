@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407E03A1E5BA39D004223CF /* pasted-image-small-41454.png in Resources */ = {isa = PBXBuildFile; fileRef = 8407E0391E5BA39D004223CF /* pasted-image-small-41454.png */; };
+		8407E03C1E5BAD0A004223CF /* hairM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8407E03B1E5BAD0A004223CF /* hairM.jpg */; };
+		8407E03E1E5BADFF004223CF /* footM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8407E03D1E5BADFF004223CF /* footM.jpg */; };
+		8407E0411E5BBABE004223CF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407E0401E5BBABE004223CF /* SearchViewController.m */; };
 		8411CD961E4B913E00EABC11 /* DaysCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD951E4B913E00EABC11 /* DaysCollectionViewCell.m */; };
 		8411CD9B1E4BDBCE00EABC11 /* DisplayDateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD9A1E4BDBCE00EABC11 /* DisplayDateData.m */; };
 		8411CDA11E4C049100EABC11 /* Reservation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CD9F1E4C049100EABC11 /* Reservation+CoreDataProperties.m */; };
-		8411CDA41E4C1D9900EABC11 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */; };
 		8411CDA91E4C249700EABC11 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8411CDA81E4C249700EABC11 /* AnimationViewController.m */; };
 		845804571E4ACE8D00E5C3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804561E4ACE8D00E5C3EA /* main.m */; };
 		8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845804591E4ACE8D00E5C3EA /* AppDelegate.m */; };
@@ -56,14 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8407E0391E5BA39D004223CF /* pasted-image-small-41454.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pasted-image-small-41454.png"; path = "../pasted-image-small-41454.png"; sourceTree = "<group>"; };
+		8407E03B1E5BAD0A004223CF /* hairM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hairM.jpg; path = ../WellsfargoReservation/hairM.jpg; sourceTree = "<group>"; };
+		8407E03D1E5BADFF004223CF /* footM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = footM.jpg; path = ../WellsfargoReservation/footM.jpg; sourceTree = "<group>"; };
+		8407E03F1E5BBABE004223CF /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8407E0401E5BBABE004223CF /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		8411CD941E4B913E00EABC11 /* DaysCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysCollectionViewCell.h; sourceTree = "<group>"; };
 		8411CD951E4B913E00EABC11 /* DaysCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysCollectionViewCell.m; sourceTree = "<group>"; };
 		8411CD991E4BDBCE00EABC11 /* DisplayDateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDateData.h; sourceTree = "<group>"; };
 		8411CD9A1E4BDBCE00EABC11 /* DisplayDateData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDateData.m; sourceTree = "<group>"; };
 		8411CD9E1E4C049100EABC11 /* Reservation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reservation+CoreDataProperties.h"; sourceTree = "<group>"; };
 		8411CD9F1E4C049100EABC11 /* Reservation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reservation+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8411CDA21E4C1D9900EABC11 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchTableViewController.h; path = WellsfargoReservation/SearchTableViewController.h; sourceTree = "<group>"; };
-		8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchTableViewController.m; path = WellsfargoReservation/SearchTableViewController.m; sourceTree = "<group>"; };
 		8411CDA71E4C249700EABC11 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationViewController.h; path = WellsfargoReservation/AnimationViewController.h; sourceTree = "<group>"; };
 		8411CDA81E4C249700EABC11 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationViewController.m; path = WellsfargoReservation/AnimationViewController.m; sourceTree = "<group>"; };
 		845804521E4ACE8D00E5C3EA /* WellsfargoReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsfargoReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,18 +171,18 @@
 				845804581E4ACE8D00E5C3EA /* AppDelegate.h */,
 				8458045C1E4ACE8D00E5C3EA /* ViewController.m */,
 				845804AD1E4AD9CE00E5C3EA /* SpaServiceViewController.h */,
-				8411CDA31E4C1D9900EABC11 /* SearchTableViewController.m */,
 				845804B01E4AF2D400E5C3EA /* ScheduleViewController.h */,
 				8411CDA81E4C249700EABC11 /* AnimationViewController.m */,
 				845804A21E4ACF5D00E5C3EA /* ListTableViewCell.m */,
 				845804A11E4ACF5600E5C3EA /* ListTableViewCell.h */,
 				845804B11E4AF2D400E5C3EA /* ScheduleViewController.m */,
-				8411CDA21E4C1D9900EABC11 /* SearchTableViewController.h */,
 				8458049E1E4ACF4600E5C3EA /* MyReservationTableViewController.h */,
 				8458049F1E4ACF4A00E5C3EA /* MyReservationTableViewController.m */,
+				8407E03F1E5BBABE004223CF /* SearchViewController.h */,
 				8458045B1E4ACE8D00E5C3EA /* ViewController.h */,
 				84B0ED741E4E864400CC4AF4 /* DisplayNavigationController.h */,
 				84B0ED751E4E864400CC4AF4 /* DisplayNavigationController.m */,
+				8407E0401E5BBABE004223CF /* SearchViewController.m */,
 				845804591E4ACE8D00E5C3EA /* AppDelegate.m */,
 				8411CDA71E4C249700EABC11 /* AnimationViewController.h */,
 			);
@@ -189,6 +195,7 @@
 			children = (
 				84B0ED731E4E864400CC4AF4 /* ionicons */,
 				845804A61E4AD2F100E5C3EA /* 11.png */,
+				8407E0391E5BA39D004223CF /* pasted-image-small-41454.png */,
 				845804A81E4AD2FA00E5C3EA /* 33.png */,
 				8458049C1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg */,
 				845804A41E4AD2E800E5C3EA /* 22.png */,
@@ -259,7 +266,9 @@
 		84B0ED731E4E864400CC4AF4 /* ionicons */ = {
 			isa = PBXGroup;
 			children = (
+				8407E03D1E5BADFF004223CF /* footM.jpg */,
 				84B0ED761E4E864400CC4AF4 /* FontInspector.h */,
+				8407E03B1E5BAD0A004223CF /* hairM.jpg */,
 				84B0ED771E4E864400CC4AF4 /* FontInspector.m */,
 				84B0ED781E4E864400CC4AF4 /* ionicons-codes.h */,
 				84B0ED791E4E864400CC4AF4 /* ionicons.bundle */,
@@ -385,12 +394,15 @@
 				8458049D1E4ACF3B00E5C3EA /* st-886A8478-218D-4919-A7E2-83DF4AB1387F-41407.jpg in Resources */,
 				84B0ED811E4E864400CC4AF4 /* ionicons.bundle in Resources */,
 				845804681E4ACE8D00E5C3EA /* LaunchScreen.storyboard in Resources */,
+				8407E03E1E5BADFF004223CF /* footM.jpg in Resources */,
 				845804A71E4AD2F100E5C3EA /* 11.png in Resources */,
 				84B0ED841E4E864400CC4AF4 /* LICENSE in Resources */,
 				845804A91E4AD2FA00E5C3EA /* 33.png in Resources */,
 				845804A51E4AD2E800E5C3EA /* 22.png in Resources */,
 				84B0ED851E4E864400CC4AF4 /* pasted-image-small-30889.png in Resources */,
+				8407E03C1E5BAD0A004223CF /* hairM.jpg in Resources */,
 				84B0ED831E4E864400CC4AF4 /* ionicons.ttf in Resources */,
+				8407E03A1E5BA39D004223CF /* pasted-image-small-41454.png in Resources */,
 				845804651E4ACE8D00E5C3EA /* Assets.xcassets in Resources */,
 				845804601E4ACE8D00E5C3EA /* Main.storyboard in Resources */,
 			);
@@ -422,8 +434,8 @@
 				84B0ED801E4E864400CC4AF4 /* FontInspector.m in Sources */,
 				84B0ED7F1E4E864400CC4AF4 /* DisplayNavigationController.m in Sources */,
 				8458045D1E4ACE8D00E5C3EA /* ViewController.m in Sources */,
+				8407E0411E5BBABE004223CF /* SearchViewController.m in Sources */,
 				8411CDA91E4C249700EABC11 /* AnimationViewController.m in Sources */,
-				8411CDA41E4C1D9900EABC11 /* SearchTableViewController.m in Sources */,
 				84B0ED821E4E864400CC4AF4 /* IonIcons.m in Sources */,
 				8411CD961E4B913E00EABC11 /* DaysCollectionViewCell.m in Sources */,
 				8458045A1E4ACE8D00E5C3EA /* AppDelegate.m in Sources */,

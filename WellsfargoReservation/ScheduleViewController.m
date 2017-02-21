@@ -2,8 +2,8 @@
 //  ScheduleViewController.m
 //  WellsfargoReservation
 //
-//  Created by Lakshmi on 2/7/17.
-//  Copyright © 2017 Admin. All rights reserved.
+//  Created by Lakshmi on 2/20/17.
+//  Copyright © 2017 Lakshmi. All rights reserved.
 //
 
 /*START .Functionality done by the view controller.
@@ -132,19 +132,23 @@
         DaysCollectionViewCell *cell =[collectionView cellForItemAtIndexPath:indexPath];
         cell.monthImg.hidden = NO;
         NSDate *date = [NSDate date];
-        NSDateFormatter *formatter = [[NSDateFormatter alloc] init] ;
+            NSDateFormatter *formatter = [[NSDateFormatter alloc] init] ;
        // [formatter setDateFormat:@"dddd, MMMM dd , yyyy"];
         //date = [formatter dateFromString:@"2017-02-\(i)"];
         [formatter setDateFormat:@"YYYY-MM-dd"];
         date = [formatter dateFromString:[NSString stringWithFormat:@"%@%@",@"2017-02-",cell.dataDisplay.text]];
         
-        [formatter setDateFormat:@"EEEE, MMMM dd,yyyy"];
+        [formatter setDateFormat:@"EEEE, MMMM dd, yyyy"];
         NSString *ddate = [formatter stringFromDate:date];
         
 
         NSLog(@"DATE %@", ddate);
         serviceDate = ddate;
         isDateSelected = YES;
+           
+           cell.monthImg.backgroundColor=[UIColor colorWithRed:166/255. green:204/255. blue:233/255. alpha:0.3];
+         // cell.monthImg.backgroundColor=  [UIColor colorWithRed:97/255. green:179/255. blue:235/255. alpha:0.3];
+            
         }
         
     }
@@ -165,6 +169,10 @@
         cell.timeImg.hidden = NO;
         serviceTime = cell.timeDisplay.text;
         isTimeSelected = YES;
+            
+           cell.timeImg.backgroundColor=[UIColor colorWithRed:166/255. green:204/255. blue:233/255. alpha:0.3];
+          //  self.timeCollectionView.backgroundColor=[UIColor colorWithRed:166/255. green:204/255. blue:233/255. alpha:0.3];
+           
             }
     }
     if((isTimeSelected)&&(isDateSelected))
@@ -242,7 +250,7 @@ numberOfRowsInComponent:(NSInteger)component{
    
     [reserCustomer setValue:serviceDate forKey:@"date"];
     [reserCustomer setValue:self.serviceDuration.text forKey:@"duration"];
-    [reserCustomer setValue:[NSString stringWithFormat:@"%@%@",@"PARTY SIZE ",self.partyLabel.text] forKey:@"partySize"];
+    [reserCustomer setValue:[NSString stringWithFormat:@"%@%@",@"PARTY SIZE - ",self.partyLabel.text] forKey:@"partySize"];
     [reserCustomer setValue:self.serviceDescription.text forKey:@"serviceDesc"];
     [reserCustomer setValue:self.serviceName.text forKey:@"serviceName"];
     [reserCustomer setValue:serviceTime forKey:@"serviceTime"];
